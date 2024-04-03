@@ -5,7 +5,7 @@ while True:
     
     if operacao == 0:
         print ("Encerrando a calculadora...")
-        continue
+        break
 
     valor_um = int (input("Digite o primeiro número: "))
     valor_dois = int (input("Digite o segundo valor: "))
